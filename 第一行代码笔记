@@ -20,4 +20,9 @@
    4.9 settings.gradle: 指定项目中所有引入的模块
 5. Activity是Android系统提供的一个活动基类，我们项目中所有的活动都必须继承它或者它的子类才能拥有活动的特性（如：AppCompactActivity
    是Activity的子类）
-   5.1 一个活动被创建时，onCreate()
+   5.1 一个活动被创建时，onCreate()->setContentView()引入一个layout布局
+6. app目录下面的res目录
+   6.1 res/values/strings.xml: 在代码中用R.string.hello_world调用或者在XML中用@string/hello_world调用
+   6.2 build.gradle(project)：repositories里面都声明的jcenter()和google()配置，我们就可以引用任何jcenter和google上的开源项目了
+   6.3 build.gradle(app): 第一行apply plugin有两种值，第一种com.android.application表示这是一个应用程序模块，第二种com.android.library
+       表示这是一个库模块，应用程序模块可以直接运行，库模块只能依附在别的程序模块来运行
