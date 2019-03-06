@@ -4,25 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HelloWorld"
+    tools:context=".FirstActivity"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/hello_world"
+    <Button
+        android:id="@+id/button_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:layout_gravity="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Button 1"/>
 
     <Button
-        android:id="@+id/go_tong_git"
+        android:id="@+id/button_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TONG's Github"/>
 
+    <Button
+        android:id="@+id/return_helloworld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return to Hello World"/>
 
 </LinearLayout>

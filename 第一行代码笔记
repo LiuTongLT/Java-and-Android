@@ -26,3 +26,5 @@
    6.2 build.gradle(project)：repositories里面都声明的jcenter()和google()配置，我们就可以引用任何jcenter和google上的开源项目了
    6.3 build.gradle(app): 第一行apply plugin有两种值，第一种com.android.application表示这是一个应用程序模块，第二种com.android.library
        表示这是一个库模块，应用程序模块可以直接运行，库模块只能依附在别的程序模块来运行
+7. Activity类中的finish()方法可以销毁当前活动
+8. 活动的状态，运行状态，暂停状态，停止状态和销毁状态
