@@ -24,5 +24,10 @@
         android:layout_height="wrap_content"
         android:text="TONG's Github"/>
 
+    <Button
+        android:id="@+id/go_sencond_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Second activity"/>
 
 </LinearLayout>

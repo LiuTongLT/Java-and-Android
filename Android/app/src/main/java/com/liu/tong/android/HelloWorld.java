@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class HelloWorld extends AppCompatActivity implements View.OnClickListener {
+public class HelloWorld extends BaseActivity implements View.OnClickListener {
     private static final String TAG = "HelloWorld";
 
 
@@ -24,6 +24,9 @@ public class HelloWorld extends AppCompatActivity implements View.OnClickListene
 
         Button goGit = (Button) findViewById(R.id.go_tong_git);
         goGit.setOnClickListener(this);
+
+        Button goSecond = (Button) findViewById(R.id.go_sencond_activity);
+        goSecond.setOnClickListener(this);
     }
 
     @Override
@@ -55,6 +58,11 @@ public class HelloWorld extends AppCompatActivity implements View.OnClickListene
                 intent = new Intent(this,TongGithub.class);
                 intent.putExtra("extra data",data);
                 startActivity(intent);
+                break;
+
+                //启动活动的最佳写法
+            case R.id.go_sencond_activity:
+                SecondActivity.actionStart(this,"data1","data2");
                 break;
             default: break;
         }
