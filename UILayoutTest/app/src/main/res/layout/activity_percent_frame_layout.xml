@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PercentFrameLayout">
+
+    <Button
+        android:id="@+id/per_button_1"
+        android:layout_gravity="left|top"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent= "50%"
+        android:background="@color/colorPrimary"
+        android:text="Button 1"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/per_button_2"
+        android:layout_gravity="right|top"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent= "50%"
+        android:background="@color/colorPrimary"
+        android:text="Button 2"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/per_button_3"
+        android:layout_gravity="left|bottom"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent= "50%"
+        android:background="@color/colorPrimary"
+        android:text="Button 3"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/per_button_4"
+        android:layout_gravity="right|bottom"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent= "50%"
+        android:background="@color/colorPrimary"
+        android:text="Button 2"
+        android:textAllCaps="false" />
+
+</android.support.percent.PercentFrameLayout>
