@@ -25,7 +25,7 @@
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Button 1"
         android:textAllCaps="false"/>
 
     <EditText
@@ -41,5 +41,41 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@mipmap/yyqx_1"/>
+
+    <ProgressBar
+        android:id="@+id/process_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/main_button2"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 2"
+        android:textAllCaps="false"/>
+
+    <ProgressBar
+        android:id="@+id/process_bar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"/>
+
+    <Button
+        android:id="@+id/main_button3"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 3"
+        android:textAllCaps="false"/>
+
+
+    <Button
+        android:id="@+id/main_button4"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 4"
+        android:textAllCaps="false"/>
 
 </LinearLayout>
